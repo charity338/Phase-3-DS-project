@@ -7,7 +7,7 @@ SyriaTel is experiencing customer churn, which negatively impacts revenue and pr
 The dataset consists of various features such as call minutes, customer service calls, charge amounts, and service plan details. The target variable is **churn**, which indicates whether a customer leaves the service.
 
 ## Models Used & Performance Comparison
-We tested multiple machine learning models to predict customer churn:
+I tested multiple machine learning models to predict customer churn:
 
 | Model              | Accuracy  | Precision (Churn) | Recall (Churn) | F1-score (Churn) |
 |--------------------|----------|------------------|---------------|----------------|
@@ -27,7 +27,7 @@ Feature importance analysis from the Gradient Boosting model revealed that the f
 - **Total minutes & messages**: Usage patterns impact customer retention.
 
 ## **Customer Segmentation**
-To better understand churn risk, we segmented customers into three risk levels:
+To better understand churn risk, I segmented customers into three risk levels:
 
 | Churn Risk | Number of Customers |
 |------------|---------------------|
